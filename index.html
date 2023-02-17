@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="border-bottom navbar">
+            <div class="d-flex nav mx-auto justify-content-between align-items-center">
+            <div class="pointer">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="pages">
+                <ul class="d-flex mb-0 pl-0 align-items-center">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/Privacy.html">Privacy</a></li>
+                    <li><a href="/FAQ.html">FAQ</a></li>
+                </ul>
+            </div>    
+            <div class="d-flex align-items-center">
+                <div class="cart pointer"> 
+                    <img src="assets/images/basket.svg" alt="cart">               
+                </div>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-close"></i></a>
+                        <div class="overlay-content">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="Privacy.html">Privacy</a>
+                            <a href="FAQ.html">FAQ</a>
+                        </div>
+                        </div>
+                        <span class="toggle-navbar" onclick="openNav()">
+                        <img src="assets/images/hamburger.svg" alt="toggle">
+                </span>
+            </div>
+            </div>
+        </div>
+        <div class="d-flex explore-section align-items-center mx-auto my-5 justify-content-between">
+            <div class="explore-content">
+                <h1 class="display-6">Discover the best new sport books</h1>
+                <p class="text">Relive some of the best moments in sports, or discover something new about the life of your favourite coach or player. Whether you prefer baseball, football or basketball, these top picks will expand your horizons and keep you entertained.</p>
+                <button class="rounded-pill explore-btn border-0 text-white">Explore now</button>
+            </div>
+            <div class="explore-image">
+                <img src="assets/images/signature-image.png" alt="explore image">
+            </div>
+        </div>
+        <div class="my-5 books-container-section position-relative px-3">
+            <div class="circle-down pointer mx-auto">
+                <a href="#top10Books">
+                    <div class="arrow-down">
+                        <img src="assets/images/arrow.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="book-container-title-bg text-center position-absolute top-0 start-0">
+                <span>Top 10</span>
+            </div>
+            <div class="book-container-title text-center" id="top10Books">
+                <h5>Top 10 Sports Books</h5>
+            </div>
+            <div class="section-divider"></div>
+
+            <div class="books-container">
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/tyson.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">1.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex ">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/logic-of-sports-betting-book.jpeg" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">2.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/baseball.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">3.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/born to run.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">4.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/alan.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">5.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/running the world.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">6.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/shoe dog.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">7.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/freddie.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">8.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/kobe.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">9.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                <div class="book-card-wrapper">
+                    <div class="book-card d-flex">
+                        <div class="mb-3 book-cover rounded-4">
+                            <img class="rounded-4 pointer" src="assets/images/tiger woods.png" alt="book" />
+                        </div>
+                        <div class="book-description">
+                            <p class="text-secondary book-category">Boxing</p>
+                            <div class="font-epilogue pointer mb-2"><span class="book-number me-2 color-primary fw-bolder">10.</span><span class="book-name">Behind The Mask</span></div>
+                            <span>Tyson Fury</span>
+                            <div class="d-flex my-2">
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="pe-1 star">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="description">Discover the mind-blowing journey which started with a baby weighing just one pound and ended with a man who has become one of the most well-known heavyweight champions of all time. Learn the full story as Fury speaks candidly about his mental health.</p>
+                            <a href="#" class="color-primary">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="border-bottom">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <footer class="bg-black">
+            <div class="footer-banner">
+                <div class="text-white container">
+                    <h2 class="display-6">Discover the best new sport books</h2>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="footer-logo-container">
+                    <div class="sport-book-text mx-auto">
+                        <img src="assets/images/white-logo.svg" alt="logo">                            
+                    </div>
+                    <div class="mb-4">
+                        <ul class="d-flex mb-0 justify-content-center align-items-center">
+                            <li><a class="text-decoration-none mx-2 text-white" href="/index.html">Home</a></li>
+                            <li><a class="text-decoration-none mx-2 text-white" href="/about.html">About</a></li>
+                            <li><a class="text-decoration-none mx-2 text-white" href="/Privacy.html">Privacy</a></li>
+                            <li><a class="text-decoration-none mx-2 text-white" href="/FAQ.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social-profiles">
+                    <h6 class="text-white text-center mb-3">Follow us</h6>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="fa-brands fa-instagram fa-2x pointer"></i>
+                        <i class="fa-brands fa-facebook fa-2x pointer"></i>
+                        <i class="fa-brands fa-twitter fa-2x pointer"></i>
+                    </div>
+                </div>
+                <div class="rating text-center text-white">
+                    <p class="">Our Customers have rated us</p>
+                    <div class="d-flex justify-content-center mb-2">
+                        <div class="pe-1 star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pe-1 star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pe-1 star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pe-1 star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="pe-1 star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span>(5,124) </span><span>User Voted</span>
+                    </div>
+                    <div class="certified mx-auto mt-5">
+                        <img src="assets/images/certified.svg" alt="certified">
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-section bg-black text-center text-white">
+                <p>© 2022. All rights reserved</p>
+            </div>    
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
